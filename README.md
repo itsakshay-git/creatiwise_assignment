@@ -1,5 +1,9 @@
 # 🧪 Component Testing Guide
 
+## live video demo
+
+- [live link](https://creatiwise-assignment-silk.vercel.app/)
+
 This project uses **[Vitest](https://vitest.dev/)** and **[React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)** for unit testing React components such as `Footer`, `Blogs`, `Experience`, `FAQ`, and more.
 
 ---
