@@ -1,0 +1,62 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: calc(.25rem * 8);
+    padding-bottom: calc(.25rem * 8);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Menu ul{
+    display: flex;
+    /* gap: 20px; */
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+
+.list-menu{
+    text-align: center;
+    padding: calc(0.25rem * 2) calc(0.25rem * 6);
+    color: white;
+}
+
+.list-menu.active{
+    background-color: white;
+    border-radius: 50px;
+    padding: calc(0.25rem * 2) calc(0.25rem * 6);
+    color: black;
+}
+
+.list-menu-btn{
+    text-decoration: none;
+    color: white;
+}
+
+.list-menu.active .list-menu-btn {
+    color: black;
+}
+
+.hire-btn{
+    padding: calc(0.25rem * 3) calc(0.25rem * 6);
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.hire-btn:hover{
+    background-color: #2d2d2d;
+}
+
+@media (max-width: 568px) {
+    .Menu {
+        display: none;
+    }
+}

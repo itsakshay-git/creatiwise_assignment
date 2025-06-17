@@ -1,0 +1,95 @@
+
+.header {
+  background-color: #000009;
+  color: #ffffff;
+  min-height: 100vh;
+  box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+
+.hero-container{
+    padding: 100px 10%;
+}
+
+
+.hero-wrapper {
+  /* margin-top: 4rem; */
+  text-align: center;
+}
+
+.hero-line {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  font-weight: bold;
+  font-size: 5rem;
+  font-family: "Syne", sans-serif;
+}
+
+
+.hero-badge {
+  width: 8rem;
+  height: 4rem;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.hero-badge--wide {
+  width: 8rem; 
+  height: 4rem;
+  border-radius: 1.5rem;
+}
+
+.doradesign{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logos-and-text {
+  margin-top: 6rem;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* .logo-list {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
+.logo-item {
+  height: 2rem;
+  object-fit: contain;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.hero-description {
+  max-width: 400px;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+@media (max-width: 480px) {
+  .hero-line {
+    font-size: 1.8rem;
+  }
+
+  .hero-badge {
+    width: 6rem;
+    height: 3rem;
+  }
+}
