@@ -6,13 +6,6 @@ This project uses **[Vitest](https://vitest.dev/)** and **[React Testing Library
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
 ## Install Dependencies
 
 ```bash
