@@ -34,13 +34,13 @@ const Footer = () => {
         <div className="footer-cta">
           <h2 className="footer-title">LET’S TALK!</h2>
           <a href="mailto=rehanurraihan@gmail.com" className="footer-email">
-            rehanurraihan@gmail.com <FiExternalLink className="external-icon" />
+            akshay@gmail.com <FiExternalLink className="external-icon" />
           </a>
         </div>
 
         {/* Bottom Row */}
         <div className="footer-bottom">
-          <span className="footer-copy">© Rehan Raihan – 2023</span>
+          <span className="footer-copy">© akshay dhongade – 2025</span>
           <div className="footer-links">
             <a href="#">Dribbble</a>
             <a href="#">Behance</a>
